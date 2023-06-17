@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zetapp - Your App Store</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="..\pages\about.js"></script>
+  <script src="..\pages\contacts.js"></script>
+  <script src="..\pages\index.js"></script>
+  <script src="..\pages\services.js"></script>
+  <script src="..\components\applist.js"></script>
+  <script src="..\components\categorylist.js"></script>
+  <script src="..\components\footer.js"></script>
+  <script src="..\components\header.js"></script>
+  <script src="..\components\hero.js"></script>
+</head>
+<body>
+  <header>
+  <nav>
+    <a href="#" class="logo">Zetapp</a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome to Zetapp</h1>
+    <p>Discover and download amazing apps for your device.</p>
+    <a href="#" class="btn">Get Started</a>
+  </div>
+</section>
+<section class="categories">
+  <h2>top brands on zetapps</h2>
+  <h1>we are trusted by top brands of india</h1>
+  <div class="category-list">
+    <div class="category">
+      <img src="https://th.bing.com/th/id/OIP.Wytlw5AmN2HoCJ_kLGF1EgHaF7?pid=ImgDet&rs=1" alt="Category 1">
+      <h3>nuetron</h3>
+    </div>
+    <div class="category">
+      <img src="data:image/jpeg;base64,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" alt="Category 2">
+      <h3>sundirect</h3>
+    </div>
+    <div class="category">
+      <img src="https://th.bing.com/th/id/OIP.Ji3XJDXJhKQmOLzrIcbDBgHaFj?w=240&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Category 3">
+      <h3>ISRO</h3>
+    </div>
+  </div>
+</section>
+<section class="featured-apps">
+  <h2>products on zetapp</h2>
+  <h1>we are trusted by top brands of India</h1>
+  <div class="app-list">
+    <div class="app">
+      <img src="https://th.bing.com/th/id/OIP.77-cwgDhIM2O8d7jAZGJPgHaDt?w=329&h=174&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="App 1">
+      <h3>cerdit cards</h3>
+    </div>
+    <div class="app">
+      <img src="https://th.bing.com/th/id/OIP.IWvx2K8nSUrUWqY6LVsoVAHaE8?pid=ImgDet&w=5500&h=3667&rs=1" alt="App 2">
+      <h3>loans</h3>
+    </div>
+    <div class="app">
+      <img src="https://th.bing.com/th/id/OIP.VySS1Yo068c4cWQhfRkArwHaHa?w=174&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="App 3">
+      <h3>Buy now pay later</h3>
+    </div>
+    <div class="app">
+      <img src="https://th.bing.com/th/id/OIP.0C-0pwVJzYmBvztl_3V2EgHaD_?w=284&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="App 4">
+      <h3>saving accounts</h3>
+    </div>    
+  </div>
+</section>
+<footer>
+  <p>&copy; 2023 Zetapp. All rights reserved.</p>>
+</footer>
+
+</body>
+</html>
